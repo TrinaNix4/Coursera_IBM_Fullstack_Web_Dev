@@ -120,90 +120,100 @@ Choosing the right deployment and service models to serve specific needs
 Partnering with the right cloud service providers
 Concerns related to business continuity and disaster recovery
 
-Key Cloud Service Providers and their Services
+# Key Cloud Service Providers and their Services
 
-Cloud Providers
+# Cloud Providers
 
-Alibaba Cloud - or Aliyun
-Chinese-based;
+- Alibaba Cloud - or Aliyun
+  Chinese-based;
 
-Amazon Web Services or AWS cloud
-Metered pay as you go basis;
+- Amazon Web Services or AWS cloud
+  Metered pay as you go basis;
 
-Google Cloud Platform
-Infrastructure
-Platform
-Serverless computing
-Google Cloud G Suite - products for communication, productivity, collaboration, storage and more
+- Google Cloud Platform
+  Infrastructure
+  Platform
+  Serverless computing
+- Google Cloud G Suite - products for communication, productivity, collaboration, storage and more
 
-IBM Cloud
-Products and service - data and analytics, compute, network, storage, management
-Prominent offerings - bare metal services, VMware hosting, virtual private cloud, blockchain, AI(watson)
+- IBM Cloud
+  Products and service - data and analytics, compute, network, storage, management
+  Prominent offerings - bare metal services, VMware hosting, virtual private cloud, blockchain, AI(watson)
 
-Microsoft Azure flexible cloud platform for:
-Application and services - building, testing, deploying, managing through Microsoft managed data centers
+- Microsoft Azure flexible cloud platform for:
+  Application and services - building, testing, deploying, managing through Microsoft managed data centers
 
 Global reach with a local presence;
 
-Oracle Cloud
-Known for SaaS and Database as a service -
+- Oracle Cloud
+  Known for SaaS and Database as a service -
 
-Summary -
+# Summary -
 
-Cloud computing is the delivery of on-demand computing resources over the internet on a pay-as-you-go basis; resources are dynamically assigned and reassigned among multiple users and scale up and down in response to users’ needs.
-The origins of cloud computing can be traced back to the mainframes of the 1950s, with virtualization technologies and hypervisors serving as catalysts for the emergence of modern-day cloud computing.
-Organizations must consider their business needs, investment viability, and risk capacity in order to create a cloud adoption strategy that delivers desired benefits without causing business disruptions and security, compliance, or performance issues.
-Cloud adoption is growing faster than predicted. Driving this technological wave are cloud service providers with a host of services ranging from Infrastructure, Platform, and Software services. Some major Cloud providers of our times include AWS, Alibaba Cloud, Google, IBM, and Microsoft Azure.
+- Cloud computing is the delivery of on-demand computing resources over the internet on a pay-as-you-go basis; resources are dynamically assigned and reassigned among multiple users and scale up and down in response to users’ needs.
 
-Cloud Adoption
+- The origins of cloud computing can be traced back to the mainframes of the 1950s, with virtualization technologies and hypervisors serving as catalysts for the emergence of modern-day cloud computing.
 
-To be competitive businesses must:
-Be able to respond quickly to marketplace changes
-Use analytics to understand customer experience
-Apply that understanding to adapt their products and services based on what they learn
-A cloud strategy is the core component of any business strategy today
+- Organizations must consider their business needs, investment viability, and risk capacity in order to create a cloud adoption strategy that delivers desired benefits without causing business disruptions and security, compliance, or performance issues.
 
-Cloud Adoption Case Studies
+- Cloud adoption is growing faster than predicted. Driving this technological wave are cloud service providers with a host of services ranging from Infrastructure, Platform, and Software services. Some major Cloud providers of our times include AWS, Alibaba Cloud, Google, IBM, and Microsoft Azure.
 
-American Airlines -
-The challenge:
-Improve customer service and digital channels
-Faster development and release of new apps
-Better operational reliability, productivity, and end customer response times
-Avoiding existing upgrade costs via migration to IBM cloud
-Improve response time to customer needs
-The Solutions:
-New cloud based tech platform
-Upgrade approach to delivering digital self-service tools
-Remove constraints of existing applications
+# Cloud Adoption
 
-UBank
-The solutions:
-Virtual assistant using IBM Watson technology
-The Challenge:
-Give more control to devs
-Reduce need for additional resources
-Faster speed to market
-Remove barriers in development
+- To be competitive businesses must:
 
-Results:
-Faster time to market through the cloud platform
-Quicker, easier and more cost effective innovation
-More efficient operations
+- Be able to respond quickly to marketplace changes
+- Use analytics to understand customer experience
+- Apply that understanding to adapt their products and services based on what they learn
+- A cloud strategy is the core component of any business strategy today
 
-Bitly -
+# Cloud Adoption Case Studies
 
-ActivTrades
+- American Airlines -
 
-Summary
+* The challenge:
+  Improve customer service and digital channels
+  Faster development and release of new apps
+  Better operational reliability, productivity, and end customer response times
+  Avoiding existing upgrade costs via migration to IBM cloud
+  Improve response time to customer needs
+
+* The Solutions:
+  New cloud based tech platform
+  Upgrade approach to delivering digital self-service tools
+  Remove constraints of existing applications
+
+- UBank
+
+* The solutions:
+  Virtual assistant using IBM Watson technology
+* The Challenge:
+  Give more control to devs
+  Reduce need for additional resources
+  Faster speed to market
+  Remove barriers in development
+
+* Results:
+  Faster time to market through the cloud platform
+  Quicker, easier and more cost effective innovation
+  More efficient operations
+
+- Bitly -
+
+- ActivTrades
+
+# Summary
 
 The adoption of cloud technologies is enabling enterprises, big and small, to be agile, innovative, and competitive, and to create differentiated customer experiences. The question organizations are asking is not whether they should move to the cloud, rather what strategy they should adopt to move to the cloud.
+
 Some case studies that demonstrate the impact businesses have created by adopting cloud:
-American Airlines adopting cloud technologies to deliver customer value rapidly across its enterprise
-UBank leveraging cloud platform services to give more control to their developers thereby removing barriers to innovation
-Bitly leveraging the scalability offered by cloud infrastructure for low-latency delivery to its geographically disbursed enterprise customers
-ActivTrades leveraging the infrastructure, storage, network, and security offerings on the cloud to accelerate execution and delivery of new functions in their online trading systems to their customers
-Internet of Things in the Cloud
+
+- American Airlines adopting cloud technologies to deliver customer value rapidly across its enterprise
+- UBank leveraging cloud platform services to give more control to their developers thereby removing barriers to innovation
+- Bitly leveraging the scalability offered by cloud infrastructure for low-latency delivery to its geographically disbursed enterprise customers
+- ActivTrades leveraging the infrastructure, storage, network, and security offerings on the cloud to accelerate execution and delivery of new functions in their online trading systems to their customers
+
+#Internet of Things in the Cloud
 
 IoT powered by Cloud makes a difference in businesses today
 
