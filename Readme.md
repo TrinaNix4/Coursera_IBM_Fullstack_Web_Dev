@@ -420,3 +420,41 @@ More Use Cases:
 - information security threats
 - dependency on service providers infrastructure
 - customers lack control over changes in strategy, service offerings, or tools
+
+# Software as a Service - SaaS
+
+provides users with access to a service providers cloud-based software:
+
+provider maintains:
+
+- servers
+- databases
+- application code
+- security
+
+* also manage access to the application, including security, availability, and performance
+
+SaaS Supports
+
+- email and collaborationg
+- customer relationship managment
+- human resources management
+- financial management
+
+# Key Characteristics
+
+- have a multitenant architecture
+
+- infrastructre and code are maintained centrally and accessed by all users
+
+- security compliance and maintenance are all part of the offering
+
+- users can customize apps to fit their business processes with point-and-click ease
+
+- users can customize the UI to work with their branding guidelines; can modify data fields and enable/disable features
+
+- users pay for the service via subscription model
+
+- can be scaled easily depending on needs
+
+# Key Benefits
