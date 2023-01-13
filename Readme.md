@@ -495,3 +495,70 @@ SaaS Supports
 - PaaS provides customers the hardware, software, and infrastructure to develop, deploy, manage, and run applications created by them or acquired from a 3rd party
 
 - SaaS provides access to a service providers cloud-based software. users simply access the applications on cloud while the cloud provider maintains the infrastructure, platform, data, application code, security, availability, and performance of the application
+
+# Public Cloud deployment model
+
+- deployment models indicate
+  - where the infrastructre resides
+  - who owns and manages it
+  - how cloud resources and services are made available to users
+
+in a public cloud model, users get access to:
+
+- servers
+- storage
+- network
+- security
+- applications as services delivered by cloud service providers over the internet
+
+* using web consoles and API, users can provision the reources and services they need
+
+* the cloud provider owns, manages, provisions, and maintains the infrastructure, renting it out to customers for a charge or usage-based fee
+
+* users don't own the servers their apps run on or storage their data consumes, or manage the operations of the servers
+
+offer significant cost savings, but the user doesnt have any control over the computing environment
+
+# public cloud providers in the market today include:
+
+- AWS
+- Azure
+- IBM Cloud
+- Google Cloud
+- Alibaba Cloud
+
+all providers offer a core set of servies such as servers, storage, network, security, and databases
+and they also offer a wide spectrum of niche servies with different payment options
+
+# Public Cloud Characteristics
+
+- virtualized multi-tenant architecture enabling tenants or users to share computing resources
+
+- the cloud providers pool of resources, including platforms, infrastructure, and software are not dedicated for use by a single tenant or organization
+
+# Public Cloud Benefits
+
+- on-demand resources - allowing applications to respond to fluctuations on demand
+
+- economies of scale -
+
+- highly reliable - if one physical component fails, the service still runs unaffected on remaining components
+
+# public cloud concerns
+
+- security
+  data breaches, data loss, account hijacking, insufficient due diligence, and system and app vulnerability
+
+- data sovereignty compliance - regulations governing the storage, transfer and security of data
+
+# Common Use Cases
+
+- 1. building and testing applications, and reducing time to market for their prodcuts and services
+
+- 2. businesses with fluctuating capacity and resourcing needs
+
+- 3. building secondary infrastructures for disaster recovery, data protection, and business continuity
+
+- 4. cloud storage data management services for greater accessibility, easy distribution, and backing up their data
+
+- 5. IT departments are outsourcing the management of less critical and standarized business platforms and applications to public cloud providers
