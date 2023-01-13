@@ -172,11 +172,12 @@ Global reach with a local presence;
 - American Airlines -
 
 * The challenge:
-  Improve customer service and digital channels
-  Faster development and release of new apps
-  Better operational reliability, productivity, and end customer response times
-  Avoiding existing upgrade costs via migration to IBM cloud
-  Improve response time to customer needs
+
+  - Improve customer service and digital channels
+  - Faster development and release of new apps
+  - Better operational reliability, productivity, and end customer response times
+  - Avoiding existing upgrade costs via migration to IBM cloud
+  - Improve response time to customer needs
 
 * The Solutions:
   New cloud based tech platform
@@ -188,15 +189,16 @@ Global reach with a local presence;
 * The solutions:
   Virtual assistant using IBM Watson technology
 * The Challenge:
-  Give more control to devs
-  Reduce need for additional resources
-  Faster speed to market
-  Remove barriers in development
+
+  - Give more control to devs
+  - Reduce need for additional resources
+  - Faster speed to market
+  - Remove barriers in development
 
 * Results:
-  Faster time to market through the cloud platform
-  Quicker, easier and more cost effective innovation
-  More efficient operations
+  - Faster time to market through the cloud platform
+  - Quicker, easier and more cost effective innovation
+  - More efficient operations
 
 - Bitly -
 
@@ -204,54 +206,74 @@ Global reach with a local presence;
 
 # Summary
 
-The adoption of cloud technologies is enabling enterprises, big and small, to be agile, innovative, and competitive, and to create differentiated customer experiences. The question organizations are asking is not whether they should move to the cloud, rather what strategy they should adopt to move to the cloud.
+The adoption of cloud technologies is enabling enterprises, big and small, to be agile, innovative, and competitive, and to create differentiated customer experiences.
+
+The question organizations are asking is not whether they should move to the cloud, rather what strategy they should adopt to move to the cloud.
 
 Some case studies that demonstrate the impact businesses have created by adopting cloud:
 
 - American Airlines adopting cloud technologies to deliver customer value rapidly across its enterprise
+
 - UBank leveraging cloud platform services to give more control to their developers thereby removing barriers to innovation
+
 - Bitly leveraging the scalability offered by cloud infrastructure for low-latency delivery to its geographically disbursed enterprise customers
+
 - ActivTrades leveraging the infrastructure, storage, network, and security offerings on the cloud to accelerate execution and delivery of new functions in their online trading systems to their customers
 
-#Internet of Things in the Cloud
+# Internet of Things in the Cloud
 
-IoT powered by Cloud makes a difference in businesses today
+- IoT powered by Cloud makes a difference in businesses today
 
-Giant network of connected things and people
+- Giant network of connected things and people
 
-Smart devices and sensors continually tracking and collecting data;
+- Smart devices and sensors continually tracking and collecting data;
 
 A lot of data being generated and this puts a big strain on the internet, so connect to the cloud to relieve this strain
 
 Data is Stored and processed on the cloud;
 
-AI on the Cloud
+# AI on the Cloud
 
-3 way relationship between AI, IoT, and Cloud;
+- 3 way relationship between AI, IoT, and Cloud;
 
-Symbiotic relationship between IoT, AI, and cloud;
+- Symbiotic relationship between IoT, AI, and cloud;
 
-IoT delivers data, AI powers the insights, and both these tech leverage clouds scalability and processing power to provide value to individuals and businesses
+- IoT delivers data,
 
-BlockChain and Cloud
+- AI powers the insights,
 
-Blockchain: a secure immutable network that allows members to view only the transactions that are relevant to them
+- both these tech leverage clouds scalability and processing power to provide value to individuals and businesses
 
-85% of businesses today rely on multiple clouds; some 3 or more
+# BlockChain and Cloud
 
-Blockchain for the multi cloud environment -
+- Blockchain: a secure immutable network that allows members to view only the transactions that are relevant to them
 
-A 3-way relationship between cloud ….blockchain ..and AI
-Where cloud - provides globally distributed, scalable and cost-efficient computing resources
-Blockchain - provides the trusted, decentralized source of truth and AI - powers the analytics and decision-making from the data collected
+- 85% of businesses today rely on multiple clouds; some 3 or more
 
-How blockchain benefits AI
-Blockchain records the data and variables that go into a decision made in an AI algorithm, this leads to greater thrust and transparency in the conclusions and decisions made by these algorithms
+# Blockchain for the multi cloud environment -
 
-Summary
+- A 3-way relationship between cloud ….blockchain ..and AI
+
+- cloud - provides globally distributed, scalable and cost-efficient computing resources
+
+- Blockchain - provides the trusted, decentralized source of truth and
+
+- AI - powers the analytics and decision-making from the data collected
+
+# How blockchain benefits AI
+
+- records the data and variables that go into a decision made in an AI algorithm, this
+
+- leads to greater thrust and transparency in the conclusions and decisions made by these algorithms
+
+# Summary
 
 Some case studies that demonstrate how the use of emerging technologies on the cloud is creating value for millions around the world:
-The use of the Internet of Things on the cloud to combat poaching of endangered rhinos in South Africa
-Artificial Intelligence on the cloud being leveraged to deliver unique digital experiences to millions of fans around the world by the United States Tennis Association
-Blockchain on the cloud helping farmers reduce waste by building traceability and transparency in the food supply chain
-The use of data analytics for driving predictive maintenance solutions for a city’s infrastructure by KONE
+
+- The use of the Internet of Things on the cloud to combat poaching of endangered rhinos in South Africa
+
+- Artificial Intelligence on the cloud being leveraged to deliver unique digital experiences to millions of fans around the world by the United States Tennis Association
+
+- Blockchain on the cloud helping farmers reduce waste by building traceability and transparency in the food supply chain
+
+- The use of data analytics for driving predictive maintenance solutions for a city’s infrastructure by KONE
