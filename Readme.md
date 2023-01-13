@@ -458,3 +458,40 @@ SaaS Supports
 - can be scaled easily depending on needs
 
 # Key Benefits
+
+- greatly reduce the time from decision to value - no upfront capital or IT assistance
+
+- increases workforce prodcutivity and efficiency
+
+  - users can access core business apps from anywhere
+  - buy and deploy apps in minutes
+
+# Use Cases
+
+- organizations are moving to SaaS to:
+
+* reduce on premises IT infrastructure and capital expenditure
+* avoid ongoing upgrades, maintenance and patching
+* run applications with minimal input
+* manage websites, marketing, sales and operations
+* gain resilience and business continuity of the cloud provider
+
+-> trending toward SaaS integration platforms
+
+# Concerns
+
+- data ownership and data safety
+- third party maintains business critical data
+- needs a good internet connection
+
+# Summary
+
+- 3 main service models available on the cloud -
+  _ IaaS - infrastructure as a service
+  _ PaaS - platform as a service \* SaaS - software as a service
+
+- IaaS provides the fundamental compute, network, and storage resources for customers on demand
+
+- PaaS provides customers the hardware, software, and infrastructure to develop, deploy, manage, and run applications created by them or acquired from a 3rd party
+
+- SaaS provides access to a service providers cloud-based software. users simply access the applications on cloud while the cloud provider maintains the infrastructure, platform, data, application code, security, availability, and performance of the application
