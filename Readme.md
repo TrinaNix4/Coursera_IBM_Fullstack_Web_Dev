@@ -277,3 +277,68 @@ Some case studies that demonstrate how the use of emerging technologies on the c
 - Blockchain on the cloud helping farmers reduce waste by building traceability and transparency in the food supply chain
 
 - The use of data analytics for driving predictive maintenance solutions for a city’s infrastructure by KONE
+
+# Cloud Service Models
+
+# IaaS - infrastructure as a service
+
+- a form of cloud computing that delivers
+
+* compute
+* network
+* storage
+
+to consumers on a pay as you go, on demand, over the internet basis.
+
+- the cloud provider hosts the infrastructure components traditionally present in an on-premises data center as well as the virtualization or hypervisor layer
+
+# IaaS Cloud environment
+
+customers can:
+
+- create or provision virtual machines (VMs) in their choice of region or zone
+
+- VMs come pre-installed with the customers choice of operating system
+
+- customers can then deploy middleware, install applications, and run workloads on the VMs
+
+- can also create storage for their workloads and backups
+
+- can often track and monitor the performance and usage of their cloud services and manage disaster recovery
+
+# Key Componenets of Cloud Infrastructure
+
+A - Physical data centers
+manage large data centers that contain the physical machines;
+
+end users do no interact directly with the physical infrastructure but experience it as a service provided to them
+
+B - Compute
+IaaS providers manage the hypervisors
+
+end-users programatically provision virtual instances with desired amounts of compute, memory, and storage resources
+
+cloud compute typically comes with supporting services like auto scaling and load balancing that provide scalability and high performance
+
+C - Network
+users get access to networking resources on the cloud through virtualization or programatically, through APIs
+
+D - Storage
+3 types of cloud data storage: object, file, and block storage
+
+object storage is the most common mode of storage in the cloud, given that it is highly distributed and resilient
+
+# IaaS Use Cases
+
+- enable their teams to set up test and development environments faster
+
+- IaaS makes applications and data accessible as usual during a disaster or outage
+
+- using cloud infrastructure for faster deployments and scaling infrastructure up and down as demand fluctuates
+
+- high performance computing to solve complex problems involving millions of variables and calculations
+
+- big data analysis
+  Patterns, trends, and associations requires a huge amount of processing power
+
+  cloud Infrastructure provides the required high-performance computing and also makes it economically viable
