@@ -342,3 +342,81 @@ object storage is the most common mode of storage in the cloud, given that it is
   Patterns, trends, and associations requires a huge amount of processing power
 
   cloud Infrastructure provides the required high-performance computing and also makes it economically viable
+
+# PaaS - platform as a service
+
+- a cloud computing model that provides customers a complete platform to develop, deploy, manage, and run applications created by them or acquired from a 3rd party
+
+the PaaS providers host and manage everything at their data centers including:
+
+- servers
+- networks
+- storage
+- operating system
+- application runtimes
+- APIs
+- middleware
+- databases
+
+* The provider also takes care of the installation, configuration, and operator of the application infrastructure, leaving the user only responsible for the application code and maintenance
+
+* paid for on a usage basis and resources are purchased on-demand
+
+with Iaas, the cloud provider offers access to 'raw' computing resources such as servers, storage, and networking
+
+VS
+
+PaaS, the cloud service provider delivers and manages the entire platform infrastructure, abstracting users from the lower level details of the environment
+
+# essential characteristics of PaaS:
+
+- high level of abstraction provided to users,
+
+eliminating the complexity of deploying applications
+
+- provide support services and APIs that help simplify the job of developers
+
+- run-time environments; executes code according to applilcation owner and cloud provider policies
+
+- rapid deployment mechanisms - deploy, run, and scale applications efficiently
+
+- middleware capabilities - support a range of application infrastructure capabilities
+
+# Most important use case for PaaS is strategic - build, test, deploy, enhance, and scale applications rapidly and cost effevtively
+
+More Use Cases:
+
+- api development and management
+
+- internet of things (IoT) -
+
+- business analytics/intelligence
+
+- business process management (BPM)
+
+- Master data management (MDM)
+
+# Advantages of PaaS
+
+- scalability - made possible because of the rapid allocation and deallocation of resources with pay as you go model
+
+- faster time to market - APIs, support sevices, and middleware provided allows developers to focus their efforts on app development and testing
+
+- greater agility and innovation - can experiement with multiple languages, OS's, and tool without having to invest in the resources
+
+# Key PaaS offerings in todays market
+
+- AWS elastic beanstalk
+- cloud foundry
+- IBM cloud paks
+- windows azure
+- redhat open shift
+- magento commerce cloud
+- force.com
+- apache stratos
+
+# PaaS Risks
+
+- information security threats
+- dependency on service providers infrastructure
+- customers lack control over changes in strategy, service offerings, or tools
