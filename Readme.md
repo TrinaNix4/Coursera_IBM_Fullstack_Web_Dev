@@ -562,3 +562,121 @@ and they also offer a wide spectrum of niche servies with different payment opti
 - 4. cloud storage data management services for greater accessibility, easy distribution, and backing up their data
 
 - 5. IT departments are outsourcing the management of less critical and standarized business platforms and applications to public cloud providers
+
+# Private Cloud
+
+NIST defines private cloud as infrastructre provisioned for exclusive use by a single organization comprised of multiple cosumers, such as the business units within the organization.
+
+it may be owned, managed, and operated by the organization, a third party, or some combo of them, and may exist off premises
+
+- can be implemented interally or externally
+
+* internal infrastructure; on premises; owned and managed by organization
+
+* external infrastructure - owned, anaged, and operated by service provider
+
+# Virtual Private Cloud (VPC)
+
+- an external cloud that offers a private, secure, computing environment in a shared public cloud
+
+can leverage benefits of a public cloud but still have access to a tailored cloud environment
+
+- best of both worlds
+  benefits:
+
+  - dynamic scalability
+  - cost efficiency
+  - self-service
+
+  but still have control over:
+
+  - access
+  - security
+  - compliance
+
+# Benefits of Private Clouds
+
+- controlled by internal IT
+- reduced costs - can use existing hardware and softwware
+- better scalability
+- controlled access and security
+- greater agility
+
+# Common Use Cases
+
+- unique competitive advantage
+- highly sensitive data and subject to strict regulations
+
+- modernize and unify in-house and legacy applications
+
+- integrate data and application servies from existing applications
+
+- ability to build applcations anywhere and move them anywhere
+
+- benefits of cloud computing while exercising full control over security and compliance issues
+
+# Hybrid Cloud Model
+
+connects an organizations on premise private cloud and third party public cloud
+
+gives organization the flexibility, workloads move freely, and choice of security and regulation features
+
+can leverage both public and private clouds for the same workload.
+e.g. leverage additional public cloud capacity to accommodate a spike in demand for a private cloud application (known as cloud bursting)
+
+# 3 Tenets
+
+1.  interoperable - public and private clouds understand each others APIs, configureation, data formats, authentication, and authorization
+
+2.  scalable - private clouds can leverage public cloud capacity
+
+3.  portable - move applications and data between on-premise, cloud systems, and cloud service providers
+
+# Types of Hybrid Clouds
+
+- Hybrid monocloud
+  one cloud provider
+
+- hybrid multicloud
+  can be deployed on any public cloud infrastructure
+
+  - composite multicloud - greater flexibility
+
+  # Benefits
+
+  - security and compliance
+    organization can deploy highly regulated or sensitive workloads in a private cloud while running the less sensitive workloads on a public cloud
+
+  - scalability and resilience
+    hybrid cloud allows you to scale up quickly, inexpensively, and even automatically using the public cloud infrastructure, all without impacting the other workloads running on the private cloud
+
+  - resource optimization
+
+  - cost-saving
+    not locked in with specific vendor and don't have to make either-or decisions between the cloud models, you can make the most cost-efficient use of your budget.
+
+# Use Cases
+
+- sofware as a service integration
+
+- data and AI integration
+
+- enhancing legacy apps
+
+- VMware migration - shifting on premises to virtual clouds
+
+# Summary
+
+- 3 deployment models
+
+  - public
+  - private
+  - hybrid
+
+  models indicate where the infrastructure resides, who owns, who manages it and how cloud resources and services are made available to users
+
+  - public cloud - services provider owns, manages, provisions, and maintains physical infrastructure such as data centers, servers, networking equipment, and storage. users access virtualized compute, networking and storage resources as services
+
+  - private cloud - provider provisions the cloud infrastructure for exclusive use by single organization. can be internal to the organiation and run on premises. or can be on a public cloud, as in the case of VPC - vritual private clouds and be owned, managed, and oeprated by the cloud provider
+
+- hybrid cloud model - an organization on premises private cloud and third party public cloud is connected as a single, flexible infrastructure leveraging the features and benefits of both public and private clouds
