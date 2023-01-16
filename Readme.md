@@ -757,13 +757,72 @@ When servers are provisioned, you need to setup up public and private interfaces
 
   - provide connectivity to your other cloud resources and help keep them secure
 
+- network interfaces in the cloud need to have IP addresses and subnets either assigned automatically or configured
 
+- in a cloud environment, its important to configure which network traffic and users can access your resources, which is done by setting up Security Groups and Access Control Lists (ACLs)
 
-- network interfaces in the cloud need to have IP addresses and subnets either assigned automatically or configured 
+- most cloud providers provide
 
-- in a cloud environment, its important to configure which network traffic and users can access your resources, which is done by setting up Security Groups and Accesss Control Lists (ACLs)
+* Virtual Local Area Networks (VLANs),
+* Virtual Private Clouds (VPCs) and
+* Virtual Private Networks (VPNs)
 
-- most cloud providers provide Virtual Local Area Networks (VLANs), Virtual Private Clouds *(VPCs) and Virtual Private Networks (VPNs)
+* Content Delivery Networks (CDNs) -
+  - distribute content to multiple points throughout the word so users accessing the content can access it more quickly by getting it from apoint nearest to them
 
-- Content Delivery Networks (CDNs)  - distribute content to multiple points throughout the word so users accessing the content can access it more quickly by getting it from apoint nearest to them  
+# Virtualization and VMs explained
 
+- Virtualization is the process of creating software-based, or virtual versions of compute, storage, networking, servers or applications
+
+* hypervisor is what makes virtualization possible
+
+- hypervisor - a piece of software that runs above the physical server, or host
+
+- a hypervisor pulls the resources from the physical server and allocates them to the virtual environments
+
+* 2 types of hypervisors
+
+  - Type 1
+
+  * installed directly on top of the physical server
+
+  * also called bare metal servers
+
+  * most frequently used because most secure, lower the latency
+
+  * e.g. VMware, ESXi, or microsoft hyper-v
+
+  - Type 2
+
+    - a layer of host OS sits between the physical server and the hypervisor
+
+    - often called 'hosted'
+
+    - less frequently used and often used for end-user virtualization
+
+    - e.g. oracle, virtualbox, vmware workstation
+
+    - higher latency
+
+# what is a VM?
+
+- a software based computer that runs like a physical computer
+
+  - has an OS and applications and is completely independent of one another
+
+  - can run multiple VMs on a hypervisor and the hypervisor manages the resources that are allocated to these virtual environments from the physical server
+
+  - extremely portable, can move a VM from one hypervisor to another almost instantly so this gives a lot of flexibility
+
+  # Key benefits
+
+  - 1. cost savings -
+       - can run multiple virtual environments from one piece of infrastructure
+       - consolidation; don't have to maintain as many servers, save on electricity and maintenance costs
+
+- 2. Agility and speed -
+     -
+
+- 3. lowers your downtime
+
+  - host goes out unexpectedly; can easily move VMs from one hypervisor to another
