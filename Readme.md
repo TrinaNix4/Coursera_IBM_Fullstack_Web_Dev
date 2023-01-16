@@ -821,8 +821,32 @@ When servers are provisioned, you need to setup up public and private interfaces
        - consolidation; don't have to maintain as many servers, save on electricity and maintenance costs
 
 - 2. Agility and speed -
-     -
 
 - 3. lowers your downtime
 
   - host goes out unexpectedly; can easily move VMs from one hypervisor to another
+    '
+
+# Types of Virtual Machines
+
+- Shared or Public Cloud VMs
+
+* provider-managed
+
+* multitenant
+
+  - means underlying physical server is virtualized and shared across other tenants
+
+* provisioned on demand with predefined sizes
+
+  - different sizes and configurations ranging from a single virtual core/ small amount of RAM to multiple virtual cores and large amounts of RAM
+
+* Transient or Spot VMs.
+
+- take advantage of unused capacity in a cloud data center;
+
+- lower cost, but can be de-provisioned at any time by the provider so best to use them for non-production workloads such as testing and developing applications
+
+* Reserved capacity
+
+  - reserve the capacity and guarantee resources for future deployments
