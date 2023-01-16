@@ -680,3 +680,20 @@ e.g. leverage additional public cloud capacity to accommodate a spike in demand 
   - private cloud - provider provisions the cloud infrastructure for exclusive use by single organization. can be internal to the organiation and run on premises. or can be on a public cloud, as in the case of VPC - vritual private clouds and be owned, managed, and oeprated by the cloud provider
 
 - hybrid cloud model - an organization on premises private cloud and third party public cloud is connected as a single, flexible infrastructure leveraging the features and benefits of both public and private clouds
+
+# Overview of Cloud Infrastructure
+
+- infrastructure layer
+  consists of physical resources housed in regions, zones and data centers typically distributed around the world
+
+* cloud region
+  geographic area or location where a cloud provider's infrastructure is clustered, and may have names like NA south or US east
+
+  - isolated from each other so that if one went down, the cloud operations in other regions would keep running
+
+* Availability Zone
+  each region can have multiple zones (AZ for short) which are distinct data centers with their own power, cooling, and networking resources
+
+  - isolation of zones improves the clouds fault tolerance, decreases latency, and avoids a single shared point of failure
+
+  - very high bandwidth connectivity with other AZs, data centers and the internet
