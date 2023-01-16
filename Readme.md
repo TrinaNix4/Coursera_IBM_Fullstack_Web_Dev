@@ -697,3 +697,23 @@ e.g. leverage additional public cloud capacity to accommodate a spike in demand 
   - isolation of zones improves the clouds fault tolerance, decreases latency, and avoids a single shared point of failure
 
   - very high bandwidth connectivity with other AZs, data centers and the internet
+
+* cloud data center - huge room or warehouse containing cloud infrastructure
+
+  - contain pods and racks of computing resources such as servers, and storage and networking equipment
+
+# Computing Resources
+
+- cloud providers offer serveral compute options - virtual servers, bare metal servers, and 'serverless'
+
+* VMs
+  most of the servers run hypervisors to create virtual servers or virtual machines (VMs) - software based computers
+
+* Bare metal servers
+
+  - physical servers that aren't virtualized
+
+* customers can provision VMs and Bare metal servers as needed and run their workloads on them
+
+* Serverless
+  - an abstraction layers on top of virtual machines
