@@ -717,3 +717,19 @@ e.g. leverage additional public cloud capacity to accommodate a spike in demand 
 
 * Serverless
   - an abstraction layers on top of virtual machines
+
+# Storage
+
+- Default storage in local drives
+
+  - Bare metal servers and virtual servers are provisioned with default storage in local drives
+
+  - this storage can be provisioned and decommisioned by customers on demand so info can be lost when you delete or decommision a cloud servers
+
+- additional storage options include block storage and file storage and object storage
+
+  - block and file storge -
+    used in traditional data centers but struggle with scale, performance and distributed characteristics of cloud
+
+  - object storage -
+    most common mode of storage in the cloud because its highly distributed and resilient
