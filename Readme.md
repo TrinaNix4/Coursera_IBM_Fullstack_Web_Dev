@@ -850,3 +850,11 @@ When servers are provisioned, you need to setup up public and private interfaces
 * Reserved capacity
 
   - reserve the capacity and guarantee resources for future deployments
+
+# Dedicated Hosts
+
+- Single tenant isolation
+
+  - only your VMs run on a given host so they can make exclusive use of resources and use full capacity
+
+- typically used for meeting compliance and regulatory requirement for licensing terms
