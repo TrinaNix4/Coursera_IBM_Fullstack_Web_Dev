@@ -733,3 +733,37 @@ e.g. leverage additional public cloud capacity to accommodate a spike in demand 
 
   - object storage -
     most common mode of storage in the cloud because its highly distributed and resilient
+
+# Networking
+
+- networking infrastructure includes hardware like :
+  - routers
+  - switches
+- and for users in the cloud, the cloud providers have:
+
+* SDN - software defined networking
+
+  - certain networking resources are virtualized or made available programatically, through APIs
+
+  - allows for easier network provisioning, configuration and management in the cloud
+
+When servers are provisioned, you need to setup up public and private interfaces
+
+- public interfaces
+
+  - connect the servers to the public internet
+
+- private interface
+
+  - provide connectivity to your other cloud resources and help keep them secure
+
+
+
+- network interfaces in the cloud need to have IP addresses and subnets either assigned automatically or configured 
+
+- in a cloud environment, its important to configure which network traffic and users can access your resources, which is done by setting up Security Groups and Accesss Control Lists (ACLs)
+
+- most cloud providers provide Virtual Local Area Networks (VLANs), Virtual Private Clouds *(VPCs) and Virtual Private Networks (VPNs)
+
+- Content Delivery Networks (CDNs)  - distribute content to multiple points throughout the word so users accessing the content can access it more quickly by getting it from apoint nearest to them  
+
