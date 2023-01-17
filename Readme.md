@@ -858,3 +858,72 @@ When servers are provisioned, you need to setup up public and private interfaces
   - only your VMs run on a given host so they can make exclusive use of resources and use full capacity
 
 - typically used for meeting compliance and regulatory requirement for licensing terms
+
+# Bare Metal Servers
+
+- single tenant dedicated physical server
+
+- cloud provider manages the server up to the OS meaning if anything goes wrong with teh hardware or rack connection, they fix it and reboot the server
+
+- customer is responsible for managing everything else on the server
+
+# Bare Metal Configuration
+
+- preconfigured by the cloud provider OR
+
+- custom configured as per customer specifications
+
+this includes:
+
+- processors
+- RAM
+- hard drives
+- specialized componenets
+- the OS
+
+- customers can also intall their own OS and can install hypervisors and create their own VMs and farms
+
+- can also add GPUs
+  - designed to accelerate scientific computation, data analytics, and rendering professional grade graphics
+
+* take longer to provision than VMs because they are physical machines
+
+* more costly
+
+* dedicated for use by a single client; tend to be more expensive
+
+* intended for long term, high performance in highly secure and isolate environments
+
+* clients have full access and control of bare metal servers because no hypervisor is required because no sharing of underlying server hardware with other customers
+
+* excel in big data analytics applications and GPU intensive solutions
+
+# Example Workloads
+
+HPC - high performance computing
+
+ERP CRM AI deep learning and virtualization
+
+# Bare Metal Servers vs Virtual Servers
+
+- customer need -
+
+  - Bare Metal
+    work best for CPU and I/O intesive workloads
+
+    excel with hightest performance and security
+
+    satisfy strict compliance requirements
+
+    offer complete flexibility, control and transparency
+
+    come with added management and operational overhead
+
+  - virtual servers
+    rapidly provisioned
+
+    provide and elastic and scalable environment '
+
+    low cost to use 
+
+    limited in throughput and performance 
