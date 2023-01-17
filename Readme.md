@@ -924,6 +924,51 @@ ERP CRM AI deep learning and virtualization
 
     provide and elastic and scalable environment '
 
-    low cost to use 
+    low cost to use
 
-    limited in throughput and performance 
+    limited in throughput and performance
+
+    # Secure Networking in Cloud
+
+# Containers
+
+- an executable unit of software in which application code is packaged, along with its libraries and dependencies, so it can be run anywhere whether it be on desktop, traditional IT or the cloud
+
+- containers are small fast and portable and unlike VMs do no need to include a guest OS in every instance because they leverage host OS
+
+Example:
+
+# Summary
+
+- cloud infrastructure consists of data centers, storage, networking components, and compute resources
+
+- virtualization
+
+  - process of creating software based version of physical resources, made possible through the use of hypervisors
+
+- a few different types of Virtual Machines can be provisioned on the cloud
+
+  - shared or public cloud VMs that are provider-managed multi tenant deployments that can be provisioned on-demand with predefined sizes
+
+  - transient or spot VMs that take advantage of unused capacity in a cloud data center
+
+  - reserved VMs that allow you to reserve capacity and guaruntee resources for future deployments
+
+  - dedicated hosts that offer single tenant isolation
+
+  * bare metal servers
+
+    - single tenant physical servers dedicated to a single customer.
+    - fulfill the demanding needs of high performance computing (HPC) and data intense applications are ideal for applications that have high degree of security or compliance requirements
+
+    * networking capabilities in the cloud are delivered as a serve rather than in the form of rack and mounted devices
+
+    * Cloud resources such as VMs(or VSIs), storage, network connectivity, and load balancers are deployed into subnets within Virtual Private Cloud (VPCs)
+
+    * using private and public subnets allows users to deploy multi-tier enterprise applications securely
+
+    * load balancers distribute teh traffic and allow applications to be responsive
+
+    * containers are an executable unit of software in which applilcation code is packaged, along with its libraries and dependencies, in common ways so that it can be run anywhere - desktops, traditional IT, or the cloud
+
+    * containers are lighter weight and consume fewer resources than Virtual Machines - helping establish the development and deployment of cloud native applications
