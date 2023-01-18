@@ -979,22 +979,57 @@ where you save data and files in the cloud
 
 cloud providers host, secure, manage, and maintain the cloud storage and associated infratstructure
 
-# available in 4 main types 
+# available in 4 main types
 
-* direct attached
-  - sometimes referred to as 'local storage' is storage which is presented directly to a cloud-based server and is effectively either within the host server chassis or within the same rack 
+- direct attached
+
+  - 'local storage' is storage which is presented directly to a cloud-based server and is effectively either within the host server chassis or within the same rack
 
   - storage is fast and normally only used to store a servers OS
 
   negatives of direct attached for uses other than OS:
 
-  - it's 'ephemeral' meaning it only lasts as long as the compute resource its attached to - it cannot be shared with other nodes
+  - it's 'ephemeral'(temporary) meaning it only lasts as long as the compute resource its attached to
+
+  - it cannot be shared with other nodes
 
   - not as resilient to failure as other types of storage
-  
-* file storage
 
-* block storage
+- file storage
 
-* object storage 
+  - typically presented as 'NFS storage' which stands for Network File System
 
+  - storage is connected to compute nodes over a standard ethernet network
+
+  - common place but tends to be slower than either direct-attached or block storage because the data travels over ethernet network
+
+  - advantage: can be mounted or used on multiple servers at once
+
+- block storage
+
+  - presented to compute nodes using high speed faster read/write speeds
+
+  - good for databases or app where disk speed is important
+
+  - IOPS input/output operations per second. how quickly data can be read/written to/from the storage
+
+  - Persistance - what happens to the storage once the compute node it is attached to is terminated
+
+    - if set to persist, it will not be deleted with the compute node
+    - can be set to be automatically deleted when the compute node is deleted
+
+    - snapshot - used to save data; a point in time image of the storage
+      - fast to create
+      - don't require downtime
+      - record only changes to data
+      - cannot recover individual files
+
+* object storage
+
+  - not attached to a compute node, rather it is accessed via an API
+
+  - cheapest and slower read/write speed
+
+  - infinite in size - never fills up
+
+  - great for all types of data
