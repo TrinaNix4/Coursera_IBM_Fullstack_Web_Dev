@@ -972,3 +972,29 @@ Example:
     * containers are an executable unit of software in which applilcation code is packaged, along with its libraries and dependencies, in common ways so that it can be run anywhere - desktops, traditional IT, or the cloud
 
     * containers are lighter weight and consume fewer resources than Virtual Machines - helping establish the development and deployment of cloud native applications
+
+# Cloud Storage
+
+where you save data and files in the cloud
+
+cloud providers host, secure, manage, and maintain the cloud storage and associated infratstructure
+
+# available in 4 main types 
+
+* direct attached
+  - sometimes referred to as 'local storage' is storage which is presented directly to a cloud-based server and is effectively either within the host server chassis or within the same rack 
+
+  - storage is fast and normally only used to store a servers OS
+
+  negatives of direct attached for uses other than OS:
+
+  - it's 'ephemeral' meaning it only lasts as long as the compute resource its attached to - it cannot be shared with other nodes
+
+  - not as resilient to failure as other types of storage
+  
+* file storage
+
+* block storage
+
+* object storage 
+
