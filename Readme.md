@@ -1069,3 +1069,73 @@ physical disks -> storage appliance -> compute node
     - higher IOPS value = faster speed of underlying disk- higher IOPS = higher costs
 
     - low IOPS value can become a bottleneck
+
+# Block Storage
+
+- breaks fiiles into chunks (or blocks ) of data
+
+- stores each block separately under a unique address
+
+- must be attached to a compute node before it can be utilized
+
+- mounted from remote storage applicances
+
+- extremely resistant to failure
+
+- data is more secure
+
+- is mounted as a volume to compute nodes using a dedicated network of optical fibres
+
+- signals moveat speed of light
+
+- higher price point
+
+- perfect for workloads that need low-latency (mounted only onto one compute node at a time )
+- consistent high speed
+
+- databases and mail servers
+
+- not suitable for shared storage between multiple servers
+
+# block storage and IOPS
+
+- as it is for file storage, you need to take the IOPS capacity of the storage into account
+
+- most providers allow you to specify IOPS characteristics and adjust the IOPS as needed based on the application depending on requirements and usage behavior
+
+# common attributes of file and block atorage
+
+- both are take from applicances which are maintained by the service provider
+
+- both are highly available and resilient
+
+- often include data encryption at rest and in transit
+
+# differences between file and block storage
+
+File storage
+
+- attached to a compute node via ethernet network;
+  sometimes called network attached or NFS storage
+
+- very reliable but the speeds vary, based on load
+
+- can be attached to multiple compute nodes at once
+
+- good for file shares where:
+  - fast connectivity isn't required
+  - cost is a factor
+
+Block Storage
+
+- attached via high speed fibre network
+
+- very reliable and consistent
+
+- only attach one node at a time
+
+- good for applications that need:
+
+  - consistent fast access to disk
+
+  * remember to consider the workload IOPS requirements for both storage types
