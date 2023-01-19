@@ -1139,3 +1139,53 @@ Block Storage
   - consistent fast access to disk
 
   * remember to consider the workload IOPS requirements for both storage types
+
+# Object Storage Overview
+
+- you do not connect it to a compute node to use it, instead, you provision an Object Storage service isntance and use an API (application program interface) to upload, download, and manage your data
+
+* can use object storage with anything with an API and don't need an underlying compute node
+
+- less expensive than other cloud storage options
+
+- its effectively infinite; you just consume what you need and pay for what you use; storage never runs out
+
+- great for loarge amounts of unstructured data - data not stored in any kind of hierarchical folder or directory structure
+
+# Object Storage Buckets
+
+- object storage uses 'buckets' and objects are stored within the buckets in a structurally flat way
+
+- cannot place a bucket within a bucket
+
+- when object placed in bucket, it has some metadata added to help the application access and locate the object
+
+- don't need to provide size info, the bucket will hold whatever is put inside it
+
+# Resilience Options
+
+- service provider makes sure object storage is highly available
+
+- some offer different levels of reslience e.g. buckets are resilient but data only stored in one data center. not needed in different geographical areas far away from each other; not high availability
+
+- object storage data - use cases
+
+- flat storage structure
+
+- any data which is static and fast read/write speeds are not necessary
+
+- not suitable for running OS or apps or databases where contents of files change
+
+# Summary
+
+- used to store file - or objects - which are static
+
+- can store text files to audio and video files, from IOT dta to virtual machine images, from backup files to data archives
+
+- cannot run operating systems or other apps such as databases
+
+- objects are stored in buckets. you can have multiple buckets but you cannot place a bucket within a bucket
+
+- do not need to specify a size for a bucket, use as little or as much space as you need
+
+- providers offer different types of buckets with different charges for each. some are based on resilience and availability
