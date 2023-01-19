@@ -1033,3 +1033,39 @@ cloud providers host, secure, manage, and maintain the cloud storage and associa
   - infinite in size - never fills up
 
   - great for all types of data
+
+# File Storage
+
+- like direct attached: must be attached toa compute node to store data
+
+- less expensive
+
+- more resilient to failure
+
+- less disk management and maintenance for user
+
+- provision much larger amounts of file storage
+
+- is mounted from remote storage applicances. the physical disks are contained in a separate, specialized piece of hardware and are then connected to the ocmpute node via the underlaying infrastructure
+
+physical disks -> storage appliance -> compute node
+
+- mounted on compute nodes via ethernet networks that is dedicated for storage
+
+- also called network attached storage or network file storage (NFS)
+
+- speeds vary based on network traffic and can be slow when busy
+
+# Multiple Compute Nodes and file storage
+
+- can be mounted onto more than one compute node
+
+  - this makes an ideal solution where some kind of common workload is desired : eg. departmental file share, landing zone for incoming files, repository of file - places where speed isn't an issue
+
+  * IOPS
+
+    - input/output operations per second - the speed at which the disks can read/write data
+
+    - higher IOPS value = faster speed of underlying disk- higher IOPS = higher costs
+
+    - low IOPS value can become a bottleneck
