@@ -1189,3 +1189,42 @@ Block Storage
 - do not need to specify a size for a bucket, use as little or as much space as you need
 
 - providers offer different types of buckets with different charges for each. some are based on resilience and availability
+
+# Object Storage - Tiers and APIs
+
+- buckets have tiers or classes and these are based on how frequently the objects are accessed
+
+standard tier bucket is for objects frequently accessed
+
+a vault or archive tier is for objects that are accessed once or twice per month
+
+cold vault tier - for data typically accessed only once or twice per year
+
+automatic archiving rules -
+object automatically moved to a cheaper storage tier if not accessed frequently or recently
+
+object storage - speed
+
+- does not come with IOPS options
+- slower than file or block storage
+- data retrieval in cold vaults can take hours and be more costly to access the data
+
+- object storage is accessed through an API (not a compute node )
+
+- most common api is the s3 api offered by AWS (or s3 compatible)
+
+# Object Storage - backup solutions
+
+- effective for backup and disaster recovery
+
+# summary - object storage
+
+- different tiers - with different charges for each. some are based on frequency at which the objects are accessed
+
+- priced per gigabyte of storage used per month plus charge for data retrieval
+
+- much cheaper than file or block storage. very slow in comparison
+
+- can create rules which allow automatic 'archiving' of objects to cheaper tiers when infrequently accessed
+
+- accessed using an API. many object storage providers have an 's3 compatible' api, which means devs can create code that will work with multiple vendors object storage solutions
