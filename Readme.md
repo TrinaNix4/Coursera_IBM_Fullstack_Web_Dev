@@ -1228,3 +1228,28 @@ object storage - speed
 - can create rules which allow automatic 'archiving' of objects to cheaper tiers when infrequently accessed
 
 - accessed using an API. many object storage providers have an 's3 compatible' api, which means devs can create code that will work with multiple vendors object storage solutions
+
+# Content Delivery Network (CDN)
+
+- a distributed server network that delivers temporarily stored or cached copies of website content to users based on the users geographic location
+
+- a CDN stores the content in distributed locations and reduces the distance between your website visitors and the website server
+
+# Summary - Cloud Storage
+
+- storage avaialable in 4 main types:
+  - direct attached
+  - file
+  - block
+  - object
+- these file types differ in how they can be accessed, the capacity they offer, how much they cot, the types of data they are best suited to store and their read/write speed
+
+- direct attached (or local) storage is presented directly to a cloud-based server and is effectively either within the host server chassis or within the same rack
+
+- file storage is presented to compute nodes as a network file syste (NFS) which means that the storage is connected to compute nodes over a standard ethernet network
+
+- block storage is presented to compute nodes using high-speed fiber connections, typically provisioned in volumes, which are mounted onto a compute node
+
+- object storage is accessed via an API and doesn't need underlying compute node. object storage offers infinite capacity as you can keep adding files and just pay for what you use. object storag3e is the slowest read/write
+
+- content delivery network (CDN) is a distributed server network that accelerates internet content delivery by delivering temporarily stored or cached copies of website or media content to users based on their geographic location
