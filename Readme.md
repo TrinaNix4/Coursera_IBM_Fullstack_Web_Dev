@@ -1253,3 +1253,23 @@ object storage - speed
 - object storage is accessed via an API and doesn't need underlying compute node. object storage offers infinite capacity as you can keep adding files and just pay for what you use. object storag3e is the slowest read/write
 
 - content delivery network (CDN) is a distributed server network that accelerates internet content delivery by delivering temporarily stored or cached copies of website or media content to users based on their geographic location
+
+# Hybrid Multi-cloud
+
+- a computing environment that connects an organizations on-premise private cloud and 3rd party public cloud onto a single infrastructure for running applications
+
+* multi-cloud
+
+  - strategy that embraces a mix of cloud models from different service providers - publice, private, and managed
+    - e.g. consume email from one provider, a CRM app from another, and infrastructure from another
+
+  * all working seamlessly across multiple different clouds
+
+* hybrid multicloud use cases
+
+- cloud scaling
+
+  - instead of scaling up their on premises hardware they can take advantage of cloud - scale up in response to load and deprovision when no longer needed
+
+- Composite Cloud
+  -
