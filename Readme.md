@@ -1280,4 +1280,28 @@ object storage - speed
 # Microservices
 
 - microservices architecture
+
   - a single application is composed of many loosely coupled independently deployable, smaller components or services
+
+- have own stack running on their own containers
+
+- communicate with each other through APIs, event streaming, and message brokers
+
+for a business this means:
+
+- multiple devs can work independently
+- different stacks and runtime environments
+- independent scaling
+
+don't have to scale the entire application
+
+- devs break into small teams and write smaller amounts of code called microservices
+  - microservices break down large applications into core function, for example
+    - search
+    - recommendations
+    - customer ratings
+    - product catalogs
+
+* each is independent of one another, yet work together on cloud dev platform to create a functioning application
+
+* a container is the distribution method for each microservice - it delivers the code where it needs to go
