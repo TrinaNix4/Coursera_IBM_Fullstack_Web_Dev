@@ -1305,3 +1305,5 @@ don't have to scale the entire application
 * each is independent of one another, yet work together on cloud dev platform to create a functioning application
 
 * a container is the distribution method for each microservice - it delivers the code where it needs to go
+
+# Serverless Computing
