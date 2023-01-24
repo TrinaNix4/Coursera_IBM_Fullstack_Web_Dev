@@ -1276,3 +1276,8 @@ object storage - speed
   - applications spread across multiple cloud environments
 
   e.g. on premise architecture at a flower shop that runs 3 major components of their app - Based in EU, so when a major US holiday occurs, the system is bogging down - take advantage of multi cloud by using data centers in the US and moving billing and UI capabilities over. - scale up in response to US holidays, and keep their EU portions individually scaled
+
+# Microservices
+
+- microservices architecture
+  - a single application is composed of many loosely coupled independently deployable, smaller components or services
